@@ -1,5 +1,7 @@
 // src/providers/suno.ts
 var SunoProvider = class _SunoProvider {
+  apiKey;
+  baseUrl;
   static async get(runtime, _message, _state) {
     const apiKey = runtime.getSetting("SUNO_API_KEY");
     if (!apiKey) {
