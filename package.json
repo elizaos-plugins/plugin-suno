@@ -1,5 +1,5 @@
 {
-    "name": "@elizaos/plugin-suno",
+    "name": "@elizaos-plugins/plugin-suno",
     "version": "0.1.9",
     "description": "Suno AI Music Generation Plugin for Eliza",
     "main": "dist/index.js",
@@ -13,9 +13,6 @@
         "format": "biome format src/",
         "format:fix": "biome format --write src/",
         "test": "jest"
-    },
-    "dependencies": {
-        "@elizaos/core": "workspace:*"
     },
     "devDependencies": {
         "@biomejs/biome": "1.5.3",
