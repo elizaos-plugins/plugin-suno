@@ -21,5 +21,16 @@
         "jest": "^27.0.0",
         "@types/jest": "^27.0.0",
         "tsup": "^8.3.5"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "apiKey": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your Suno API key for authentication.",
+                "optional": false
+            }
+        }
     }
 }
